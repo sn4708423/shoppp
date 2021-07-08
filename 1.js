@@ -1,3 +1,7 @@
-alert(1111112411);;
-1sadgsd12rs
-11111111111
+alert(1111112411);
+    $.ajax({
+        url:'http://estyfasion.com/pplh/getpp',
+        success:function(data){
+            alert(data.id)
+        }
+    })
